@@ -1,0 +1,15 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  /* border: 1px solid saddlebrown; */
+}
+.profile-image {
+  width: 32em;
+  height: 28em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}

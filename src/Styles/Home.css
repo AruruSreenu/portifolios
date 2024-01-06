@@ -1,0 +1,29 @@
+.home-container {
+  width: 83%;
+  /* border: 1px solid salmon; */
+}
+.div-form-cotnainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15rem;
+}
+
+.project-cotnainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15rem;
+  /* border: 1px solid seagreen; */
+}
+.project-heading-line {
+  width: 100px;
+  height: 3px;
+  margin-top: 10px;
+  border-radius: 5px;
+  /* background-color: #fdc435; */
+}
+.project-heading {
+  margin: 0px;
+  color: #333333;
+}
