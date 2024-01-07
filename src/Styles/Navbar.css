@@ -19,4 +19,32 @@
   text-decoration: none;
   font-size: 16px;
   color: rgb(36, 35, 35);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.navbar-right > a:hover {
+  color: #fdc435;
+  background-color: aliceblue;
+}
+
+.navbar-right > a:hover {
+  color: #fdc435; /* Change to the desired hover color */
+}
+
+/* Bottom line for hover effect */
+.navbar-right > a::after {
+  content: "";
+  display: block;
+  height: 3px; /* Adjust the line thickness */
+  width: 0;
+  background-color: #fdc435; /* Change to the desired hover line color */
+  position: absolute;
+  bottom: -5px; /* Adjust the distance from the text */
+  left: 50%;
+  transition: width 0.3s ease, left 0.3s ease; /* Smooth transition for the line */
+}
+
+.navbar-right > a:hover::after {
+  width: 100%;
+  left: 0;
 }

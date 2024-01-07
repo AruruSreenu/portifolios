@@ -13,6 +13,21 @@
   font-size: 2.8rem;
   line-height: 65px;
   margin: 15px 0px 0px 0px;
+  animation: textAnimation 3s ease-in-out infinite;
+}
+@keyframes textAnimation {
+  0% {
+    color: #333333;
+    transform: translateX(0);
+  }
+  50% {
+    color: #fdc435; /* Change to the desired color */
+    transform: translateX(10px); /* Adjust the distance of the movement */
+  }
+  100% {
+    color: #333333;
+    transform: translateX(0);
+  }
 }
 .about-text {
   font-size: 20px;
@@ -31,6 +46,7 @@
   border-radius: 8px;
   font-size: 16px;
   font-weight: 600;
+  text-decoration: none;
 }
 .linked-button {
   padding: 7px 17px;

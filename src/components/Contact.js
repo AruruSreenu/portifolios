@@ -6,7 +6,7 @@ import email from "../Images/mail.png";
 
 const Contacts = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <div className="contact-icons-container">
         <a href="https://www.instagram.com/?hl=en" target="_blank">
           <img src={instagram} className="contact-icons" />

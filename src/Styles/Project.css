@@ -11,6 +11,7 @@
 }
 .project-inner-container {
   width: 50%;
+  margin-left: 20px;
 }
 .project-inner-heading {
   font-size: 1.8rem;
@@ -27,6 +28,7 @@
   font-size: 17px;
   font-weight: 600;
   color: #25282b;
+  cursor: pointer;
   background-color: transparent;
 }
 .project-img-container {
@@ -36,4 +38,19 @@
 .project-img {
   width: 100%;
   height: 100%;
+}
+.even {
+  order: 1;
+}
+
+.odd {
+  order: -1;
+}
+.evenImage {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.oddImage {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
